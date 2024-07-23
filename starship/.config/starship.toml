@@ -30,6 +30,7 @@ style = 'italic rosewater'
 
 [git_status]
 style = 'italic maron'
+typechanged='  '
 format = '   [$all_status$ahead_behind]($style) '
 
 [cmd_duration]
