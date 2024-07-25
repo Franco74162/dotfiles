@@ -6,6 +6,10 @@ palette = "catppuccin_mocha"
 [character]
 success_symbol = '[λ](bold mauve)'
 error_symbol = '[λ](bold mauve)'
+vimcmd_symbol = '[λ](italic mauve)'
+vimcmd_visual_symbol = '[λ](italic mauve)'
+vimcmd_replace_one_symbol = '[O](bold red)'
+vimcmd_replace_symbol = '[O](bold green)'
 
 [directory]
 format = '[$path]($style)[$read_only]($read_only_style) '
@@ -30,7 +34,7 @@ style = 'italic rosewater'
 
 [git_status]
 style = 'italic maron'
-typechanged='  '
+typechanged = '  '
 format = '   [$all_status$ahead_behind]($style) '
 
 [cmd_duration]

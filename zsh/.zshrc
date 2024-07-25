@@ -6,18 +6,18 @@ if [ ! -d "$ZINIT_HOME" ]; then
 fi
 source "${ZINIT_HOME}/zinit.zsh"
 
+# keys
+
 # plugins
 zinit ice wait lucid
 zinit light zsh-users/zsh-syntax-highlighting
 
 zinit ice wait lucid
-zinit light zsh-users/zsh-completions
-
-zinit ice wait lucid
 zinit light zsh-users/zsh-autosuggestions
 
 zinit ice wait lucid
-zinit light jeffreytse/zsh-vi-mode
+zinit light zsh-users/zsh-completions
+
 
 # history
 HISTSIZE=1000

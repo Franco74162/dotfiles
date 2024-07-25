@@ -27,6 +27,7 @@ return {
         mason_tool_installer.setup({
             ensure_installed = {
                 "fixjson", -- json format
+                "taplo",   -- toml format
             },
         })
     end,
