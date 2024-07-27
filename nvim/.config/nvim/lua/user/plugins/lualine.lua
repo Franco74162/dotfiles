@@ -46,8 +46,17 @@ return {
         }
         require("lualine").setup({
             options = {
-                theme = theme
-            }
+                component_separators = { left = '', right = '' },
+                section_separators = { left = '', right = '' },
+                theme = theme,
+            },
+            sections = {
+                lualine_b = {},
+                lualine_c = { 'filename' },
+                lualine_x = {},
+                lualine_y = { 'filename' },
+                lualine_z = { 'location' },
+            },
         })
     end,
 }
